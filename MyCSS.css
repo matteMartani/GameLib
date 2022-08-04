@@ -1,0 +1,305 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 mar 2021, 09:44:16
+    Author     : matteo
+*/
+
+.btn-outline-violetto{
+    
+  border: 2px solid black;
+  
+  padding: 7px 18px;
+  font-size: 20px;
+  cursor: pointer;
+  
+  border-color: #b366ff;
+  color: #b366ff;
+
+}
+
+.btn-outline-violaNormale{
+
+    border: 2px solid black;
+
+    padding: 7px 18px;
+    font-size: 15px;
+    cursor: pointer;
+
+    border-color: #b366ff;
+    color: #b366ff;
+
+}
+
+
+.btn-outline-violetto:hover {
+  background-color: #b366ff;
+  color: white;
+}
+
+
+.collegamento{
+    text-decoration: none;
+    color: black;
+}
+
+.collegamento:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.collegamento-scuro{
+    text-decoration: none;
+    color: white;
+}
+
+.collegamento-scuro:hover{
+    text-decoration: underline;
+    color: #b366ff;
+}
+
+.nav-attivo{
+    background-color: #b366ff;
+}
+
+.nav-disattivo{
+}
+
+.nav-disattivo:hover{
+    background-color: #b3b3b3;
+
+}
+
+.fontoriginale{
+    font-family: monospace;
+}
+
+.font-scritte{
+    font-family: 'Righteous', cursive;
+}
+
+.violetto{
+    background-color: #b366ff;
+}
+
+.testo-violetto{
+    color: #b366ff;
+}
+
+.violetto:hover{ /*quando vado sopra a un bottone */
+    background: #9933ff;
+
+}
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.main{
+    margin-left: 30%; 
+    margin-top: 10%;
+}
+
+.main-breadcrumb{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.main-bottoni{
+    margin-top: 2%;
+}
+
+.main-figura{
+    margin-right: 20%; 
+    margin-top: 20%;
+}
+
+.main-form{
+    margin-right: 20%; 
+}
+
+.main-bottone{
+    margin-left: 30%;
+}
+
+.main-titoli{
+    margin-left: 40%;
+}
+
+.main-testo{
+    margin-left: 10%;
+}
+
+.main-section{
+
+    margin-top: 3%;
+}
+
+.main-post{
+
+    margin-top: 0%;
+}
+
+.games-section{
+    width: 100%;
+}
+
+.testo-giallo{
+    color: #33ff77;
+}
+
+.effetto-blur{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.sfondo {
+    background-image: url("img/Mario.png");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+.sfondo2 {
+    background-image: url("img/Mario2.png");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+.sfondo-login {
+    background-image: url("img/Outrun.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+.sfondo-home {
+    background-image: url("img/controller.png");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+.sfondo-forum {
+    background-image: url("img/Bonfire.jpg");
+    display: inline-block;
+    width: 100%;
+    height:auto;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.d-block {
+    display: block !important;
+}
+
+.full-width{
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+
+}
+
+.trasparenza {
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+    border-radius: 0;
+    color: #fff;
+}
+
+.dati-utente{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 5%
+}
+
+
+
+
+carosello {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+
+.carousel {
+    margin-bottom: 4rem;
+}
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+    
+} 
+
+
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+.featurette-divider {
+    margin: 5rem 0; 
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.ombra {
+    text-shadow: 2px 2px  #333;
+}
+
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+
+
