@@ -36,6 +36,7 @@ return [
 
     'games2' => 'Games',
     'empty' => 'Your catalog is empty, try adding a game!',
+    'empty2' => 'In order to add a game you need to add a Software House first!',
     'catalog2' => 'View your Catalog!',
     'consult' => 'Consult the games you played and you love',
     'addgame' => 'Add a Game',

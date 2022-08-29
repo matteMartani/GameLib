@@ -13,7 +13,8 @@ class GameController extends Controller
     {
         $dl = new DataLayer();
         $games = $dl->list_games($_SESSION['user_id']);
-        return view('game.yourGames')->with('logged', true)->with('username', $_SESSION['username'])->with('games', $games);
+        $software_houses = $dl->list_software_houses($_SESSION['user_id']);
+        return view('game.yourGames')->with('logged', true)->with('username', $_SESSION['username'])->with('games', $games)->with('software_houses', $software_houses);
     }
 
     public function create()

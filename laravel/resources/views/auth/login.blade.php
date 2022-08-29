@@ -104,8 +104,8 @@
                 </div>
                 <div class="form-group text-center">
                     <br>
-                    <input type="checkbox" name="remember" <?php if (isset($_COOKIE["username_login"])) { ?> checked <?php } ?>>
-                    <label for="remember"> {{trans('labels.remember')}}</label>
+                    <!-- <input type="checkbox" name="remember" <?php if (isset($_COOKIE["username_login"])) { ?> checked <?php } ?>>
+                    <label for="remember"> {{trans('labels.remember')}}</label> -->
                 </div>
                 <br>
                 <div class="form-group d-grid gap-2 d-md-block">

@@ -190,6 +190,16 @@ function checkDiscuss(){
         error = true;
     }
 
+    if(!(titolo.val().trim() === "")){
+
+        titolo_msg.html("");
+    }
+
+    if(!(topic.val().trim() === "")){
+
+        topic_msg.html("");
+    }
+
     if(!error){
         // se tutto va bene punto alla form e invoco il metodo submit
         // uso ajax per vedere se il nome è valido
